@@ -3,8 +3,8 @@
   padding: 0;
 }
 .home {
-  outline: 2px solid red;
-  padding: 25px 50px;
+  /* outline: 2px solid red; */
+  padding: 25px 70px;
   text-align: center;
   height: 90vh;
 }
