@@ -1,0 +1,22 @@
+.about__section {
+  text-align: left;
+  margin-bottom: 40px;
+}
+
+p {
+  font-weight: 400;
+  color: rgb(96, 95, 95);
+  font-size: larger;
+}
+.about_name{
+  font-size: 40px;
+}
+.bio__name{
+    color: black;
+    font-size: larger;
+}
+@media (max-width: 850px) {
+  .about__section {
+    text-align: center;
+  }
+}

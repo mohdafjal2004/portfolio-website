@@ -1,6 +1,27 @@
 .nav {
-  outline: 2px solid black;
-  display: flex;
-  justify-content: space-between;
+  /* outline: 2px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: space-around;
   padding: 20px 0;
+  position: fixed;
+  width: 90%;
+  backdrop-filter: blur(5px);
+
+}
+
+.logo {
+  width: 70px;
+  max-height: 70px;
+  /* outline: 2px solid rgba(94, 92, 92, 0.504); */
+  padding: 1px 1px;
+}
+
+
+.logo_image {
+  height: 90%;
+  /* outline: 2px solid rgb(0, 0, 0); */
+}
+.three{
+  background-color: transparent;
 }

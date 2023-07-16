@@ -1,0 +1,15 @@
+.project__body {
+  border: 2px solid black;
+  margin: 0 0 100px 0;
+}
+.project_container {
+  width: 100%;
+  padding: 20px 0 40px 0;
+position: sticky;
+   
+}
+.project_container > span{
+  font-size: 40px;
+  font-weight: 500;
+ 
+}
