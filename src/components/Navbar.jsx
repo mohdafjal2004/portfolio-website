@@ -1,14 +1,20 @@
 import "../Styles/Navbar.css";
 import home from "../assets/home.png";
+import Ham from "./Ham";
+import logo from '../assets/logo.png'
 
 const Navbar = () => {
   return (
     <div className="nav">
-      <div>Logo</div>
-      <div>
-        <img src={home} alt="" className="socials" />
+      <div className="logo">
+        <img src={logo} alt="logo_image" className="logo_image" />
       </div>
-      <div>Profile</div>
+      <div >
+        <img src={home} alt="ham_menu" className="socials" />
+      </div>
+      <div className="three">
+        <Ham />
+      </div>
     </div>
   );
 };
