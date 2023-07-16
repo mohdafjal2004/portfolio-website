@@ -6,6 +6,7 @@ import front from "../assets/frontImg3.png";
 
 const Hero = () => {
   return (
+    <div className="hero__body">
     <div className="heroContainer">
       <div className="heroLeft">
         <h1>Mohd Afjal</h1>
@@ -28,6 +29,7 @@ const Hero = () => {
       <div className="heroRight">
         <img src={front} alt="" height="100px"className="frontImg"/>
       </div>
+    </div>
     </div>
   );
 };
